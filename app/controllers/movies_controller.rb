@@ -7,7 +7,13 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.all
+    # @movies = Movie.all
+    @order = params[:order]
+    if Movie.column_names.include? @order
+      @movies = Movie.find(:all, :order => @order)
+    else
+      @movies = Movie.all
+    end
   end
 
   def new
