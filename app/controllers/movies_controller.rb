@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     # @movies = Movie.all
     @all_ratings = Movie.ratings
     @order = params[:order]
-    @ratings = (params[:ratings]) ? params[:ratings].values : []
+    @ratings = params[:ratings] ? params[:ratings].values : @all_ratings
     if Movie.column_names.include? @order
       @movies = Movie.find(:all, :order => @order, :conditions => ['rating in (?)', @ratings])
     else
@@ -46,17 +46,16 @@ class MoviesController < ApplicationController
     redirect_to movies_path
   end
 
-  private
-  def ensure_table_filters
-    # this is awful, gotta find some elegence with merge or something
-    session[:table_filters] = {} if session[:table_filters].nil?
-    if params[:order] != session[:table_filters][:order] || params[:ratings] != session[:table_filters][:ratings]
-      needs_redirect = true
-    end
-    session[:table_filters][:order] = params[:order] unless params[:order].nil?
-    session[:table_filters][:ratings] = params[:ratings] unless params[:ratings].nil?
+  # private
+  # def ensure_table_filters
+  #   session[:table_filters] = {} if session[:table_filters].nil?
+  #   if params[:order] != session[:table_filters][:order] || params[:ratings] != session[:table_filters][:ratings]
+  #     needs_redirect = true
+  #   end
+  #   session[:table_filters][:order] = params[:order] unless params[:order].nil?
+  #   session[:table_filters][:ratings] = params[:ratings] unless params[:ratings].nil?
 
-    redirect_to movies_path(session[:table_filters]) if needs_redirect
-  end
+  #   redirect_to movies_path(session[:table_filters]) if needs_redirect
+  # end
 
 end
