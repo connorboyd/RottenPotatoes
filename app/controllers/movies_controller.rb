@@ -7,7 +7,21 @@ class MoviesController < ApplicationController
   end
 
   def index
-    # @movies = Movie.all
+    
+    if !params.has_key?(:order)
+      params[:order] = session[:order]
+    else
+      session[:order] = params[:order]
+    end
+
+    if !params.has_key?(:ratings)
+      params[:ratings] = session[:ratings]
+    else
+      session[:ratings] = params[:ratings]
+    end
+
+
+
     @all_ratings = Movie.ratings
     @order = params[:order]
     @ratings = params[:ratings] ? params[:ratings].values : @all_ratings
@@ -16,6 +30,8 @@ class MoviesController < ApplicationController
     else
       @movies = Movie.find(:all, :conditions => ['rating in (?)', @ratings])
     end
+
+    session = params
   end
 
   def new
@@ -46,16 +62,6 @@ class MoviesController < ApplicationController
     redirect_to movies_path
   end
 
-  # private
-  # def ensure_table_filters
-  #   session[:table_filters] = {} if session[:table_filters].nil?
-  #   if params[:order] != session[:table_filters][:order] || params[:ratings] != session[:table_filters][:ratings]
-  #     needs_redirect = true
-  #   end
-  #   session[:table_filters][:order] = params[:order] unless params[:order].nil?
-  #   session[:table_filters][:ratings] = params[:ratings] unless params[:ratings].nil?
 
-  #   redirect_to movies_path(session[:table_filters]) if needs_redirect
-  # end
 
 end
