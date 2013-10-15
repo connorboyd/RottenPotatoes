@@ -1463,3 +1463,1427 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-07 20:16:53 -0600
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 192.168.1.86 at 2013-10-12 22:02:35 -0500
+
+
+Started GET "/movies" for 192.168.1.86 at 2013-10-12 22:02:35 -0500
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (13.5ms)
+Cache for Asset (application.js) is stale
+/usr/local/lib/ruby/gems/1.9.1/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js isn't in paths: /Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/assets/images, /Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/assets/javascripts, /Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/assets/stylesheets, /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/jquery-rails-1.0.19/vendor/assets/javascripts
+Compiled application.js  (0ms)  (pid 7831)
+Completed 200 OK in 39ms (Views: 36.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.86 at 2013-10-12 22:02:35 -0500
+Served asset /application.js - 200 OK (27ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.86 at 2013-10-12 22:02:36 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/movies?order=title" for 192.168.1.86 at 2013-10-12 22:02:47 -0500
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" ORDER BY title
+Rendered movies/index.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?order=title" for 192.168.1.86 at 2013-10-12 22:02:48 -0500
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY title[0m
+Rendered movies/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.1.86 at 2013-10-12 22:02:52 -0500
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-15 12:13:25 -0600
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:13:25 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:13:25 -0600
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:13:25 -0600
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:15:28 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:15:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:15:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:22:22 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (39.6ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:22:22 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:22:22 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:27:01 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (13.6ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:27:01 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:27:01 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:27:34 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+ERROR: compiling _app_views_movies_index_html_haml___2013561359289551121_70290642853780 RAISED /Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected ')'
+));}\n<table id='movies'>\n  <...
+ ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+));}\n<table id='movies'>\n  <thead>\n    <t...
+               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected $undefined
+));}\n<table id='movies'>\n  <thead>\n    <tr>\n      <...
+                          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected $undefined
+...<table id='movies'>\n  <thead>\n    <tr>\n      <th#{_hamlou...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected $undefined
+...'movies'>\n  <thead>\n    <tr>\n      <th#{_hamlout.adjust_t...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:10: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, class: @order == 'titl...
+                      ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:10: Can't assign to nil
+_hamlout.attributes({}, nil, class: @order == 'title' && ...
+                            ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:10: syntax error, unexpected ')', expecting keyword_end
+... @order == 'title' && 'hilite')}>#{_hamlout.adjust_tabs(1); ...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:11: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:11: syntax error, unexpected $undefined
+));}</th>\n      <th>Rating</th>\n      <th#{
+                                 ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:12: syntax error, unexpected '}', expecting keyword_end
+...== 'release_date' && 'hilite')}>#{_hamlout.adjust_tabs(1); _...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: syntax error, unexpected $undefined
+.../th>\n      <th>More Info</th>\n    </tr>\n  </thead>\n  <tb...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: unknown regexp options - thad
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: syntax error, unexpected $undefined
+...fo</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: syntax error, unexpected $undefined
+...  </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: syntax error, unexpected $undefined
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+                             ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:18: syntax error, unexpected '}', expecting keyword_end
+));}</td>\n      <td>#{_hamlout.a...
+    ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:19: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:19: syntax error, unexpected $undefined
+));}</td>\n      <td>#{_hamlout.adjust_...
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:20: syntax error, unexpected ')'
+));}</td>\n      <td>#{_hamlou...
+ ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:21: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:21: syntax error, unexpected $undefined
+));}</td>\n    </tr>\n", -1, false);end
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: unknown regexp options - tbdy
+unmatched close parenthesis: /tr>\n", -1, false);end
+_hamlout.push_text("  </
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: syntax error, unexpected $undefined
+..._hamlout.push_text("  </tbody>\n</table>\n#{_hamlout.adjust_...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: unterminated regexp meets end of file
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_movies_index_html_haml___2013561359289551121_70290642853780(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "movies/index";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<h1>All Movies</h1>\n#{
+
+
+_hamlout.format_script_false_false_false_true_false_true_false(( @filters
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( form_tag movies_path , :method => :get do
+));}\n<table id='movies'>\n  <thead>\n    <tr>\n      <th#{_hamlout.adjust_tabs(3); 
+
+
+
+_hamlout.attributes({}, nil, class: @order == 'title' && 'hilite')}>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to 'Movie Title', movies_path({:order => :title}), {:id => 'title_header'}
+));}</th>\n      <th>Rating</th>\n      <th#{
+_hamlout.attributes({}, nil, class: @order == 'release_date' && 'hilite')}>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to 'Release Date',movies_path({:order => :release_date}), {:id => 'release_date_header'}
+));}</th>\n      <th>More Info</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+
+ @movies.each do |movie|
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+_hamlout.format_script_false_true_false_true_false_true_false((movie.title
+));}</td>\n      <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((movie.rating
+));}</td>\n      <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((movie.release_date
+));}</td>\n      <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to "More about #{movie.title}", movie_path(movie)
+));}</td>\n    </tr>\n", -1, false);end
+_hamlout.push_text("  </tbody>\n</table>\n#{_hamlout.adjust_tabs(-2); _hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Add new movie', new_movie_path
+));}\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__1268956927896671226__process_action__2740307112103728062__callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+Rendered movies/index.html.haml within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected ')'
+));}\n<table id='movies'>\n  <...
+ ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+));}\n<table id='movies'>\n  <thead>\n    <t...
+               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected $undefined
+));}\n<table id='movies'>\n  <thead>\n    <tr>\n      <...
+                          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected $undefined
+...<table id='movies'>\n  <thead>\n    <tr>\n      <th#{_hamlou...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:6: syntax error, unexpected $undefined
+...'movies'>\n  <thead>\n    <tr>\n      <th#{_hamlout.adjust_t...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:10: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, class: @order == 'titl...
+                      ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:10: Can't assign to nil
+_hamlout.attributes({}, nil, class: @order == 'title' && ...
+                            ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:10: syntax error, unexpected ')', expecting keyword_end
+... @order == 'title' && 'hilite')}>#{_hamlout.adjust_tabs(1); ...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:11: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:11: syntax error, unexpected $undefined
+));}</th>\n      <th>Rating</th>\n      <th#{
+                                 ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:12: syntax error, unexpected '}', expecting keyword_end
+...== 'release_date' && 'hilite')}>#{_hamlout.adjust_tabs(1); _...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: syntax error, unexpected $undefined
+.../th>\n      <th>More Info</th>\n    </tr>\n  </thead>\n  <tb...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: unknown regexp options - thad
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: syntax error, unexpected $undefined
+...fo</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:13: syntax error, unexpected $undefined
+...  </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: syntax error, unexpected $undefined
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+                             ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:18: syntax error, unexpected '}', expecting keyword_end
+));}</td>\n      <td>#{_hamlout.a...
+    ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:19: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:19: syntax error, unexpected $undefined
+));}</td>\n      <td>#{_hamlout.adjust_...
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:20: syntax error, unexpected ')'
+));}</td>\n      <td>#{_hamlou...
+ ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:21: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:21: syntax error, unexpected $undefined
+));}</td>\n    </tr>\n", -1, false);end
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: unknown regexp options - tbdy
+unmatched close parenthesis: /tr>\n", -1, false);end
+_hamlout.push_text("  </
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: syntax error, unexpected $undefined
+..._hamlout.push_text("  </tbody>\n</table>\n#{_hamlout.adjust_...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: unterminated regexp meets end of file
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: syntax error, unexpected end-of-input, expecting keyword_end):
+    3: 
+    4: = @filters
+    5: = form_tag movies_path , :method => :get do
+    6: 
+    7: %table#movies
+    8:   %thead
+    9:     %tr
+  
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:29:50 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    4: = @filters
+    5: = form_tag movies_path , :method => :get do
+    6:   Include
+    7:   - @all_ratings.each do |rating|
+    8:     = rating
+    9:     = check_box_tag "ratings[#{rating}", "#{rating}", @ratings.include?(rating)
+    10:   = hidden_field_tag 'order', @order
+  app/views/movies/index.html.haml:7:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615529960'
+  app/views/movies/index.html.haml:5:in `_app_views_movies_index_html_haml___2013561359289551121_70290615529960'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:30:17 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    4: = @filters
+    5: = form_tag movies_path , :method => :get do
+    6:   Include
+    7:   - @all_ratings.each do |rating|
+    8:     = rating
+    9:     = check_box_tag "ratings[#{rating}", "#{rating}", @ratings.include?(rating)
+    10:   = hidden_field_tag 'order', @order
+  app/views/movies/index.html.haml:7:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615529960'
+  app/views/movies/index.html.haml:5:in `_app_views_movies_index_html_haml___2013561359289551121_70290615529960'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:31:21 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    4: = @filters
+    5: = form_tag movies_path , :method => :get do
+    6:   Include
+    7:   - @all_ratings.each do |rating|
+    8:     = rating
+    9:     = check_box_tag "ratings[#{rating}", "#{rating}", @ratings.include?(rating)
+    10:   = hidden_field_tag 'order', @order
+  app/views/movies/index.html.haml:7:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615529960'
+  app/views/movies/index.html.haml:5:in `_app_views_movies_index_html_haml___2013561359289551121_70290615529960'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:35:58 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    3: = @filters
+    4: = form_tag movies_path, :method => :get do
+    5:   Include: 
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]", "#{rating}", @ratings.include?(rating)
+    9:   = hidden_field_tag 'order', @order
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:35:59 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    3: = @filters
+    4: = form_tag movies_path, :method => :get do
+    5:   Include: 
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]", "#{rating}", @ratings.include?(rating)
+    9:   = hidden_field_tag 'order', @order
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:38:14 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    3: = @filters
+    4: = form_tag movies_path, :method => :get do
+    5:   Include: 
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]", "#{rating}", @ratings.include?(rating)
+    9:   = hidden_field_tag 'order', @order
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:41:44 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.include?):
+    5:   Include: 
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]", "#{rating}", @ratings.include?(rating)
+    9:   = hidden_field_tag 'order', @order
+    10:   = submit_tag 'Refresh', {:id => 'ratings_submit'}
+    11: %table#movies
+  app/views/movies/index.html.haml:8:in `block (2 levels) in _app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+  app/views/movies/index.html.haml:6:in `each'
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml___2013561359289551121_70290615015020'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:43:08 -0600
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (16.8ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:43:08 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:43:08 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:43:13 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (35.2ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:43:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:43:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:43:19 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (11.7ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:43:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:43:19 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:43:38 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    3: = @filters
+    4: = form_tag movies_path, :method => :get do
+    5:   Include: 
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]"
+    9:   = submit_tag 'Refresh', {:id => 'ratings_submit'}
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml___2013561359289551121_70290616510640'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml___2013561359289551121_70290616510640'
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.3ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:43:44 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:43:44 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:43:44 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:45:59 -0600
+
+SyntaxError (/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    @ratings = (params[:ratings]) ? params:ratings.values : []
+                                           ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':'
+    @ratings = (params[:ratings]) ? params:ratings.values : []
+                                                           ^):
+  
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:46:14 -0600
+
+SyntaxError (/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    @ratings = (params[:ratings]) ? params:ratings.values : []
+                                           ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':'
+    @ratings = (params[:ratings]) ? params:ratings.values : []
+                                                           ^):
+  
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-10-15 12:46:46 -0600
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (56.3ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:46:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:46:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:46:48 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:46:48 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:46:48 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=1" for 127.0.0.1 at 2013-10-15 12:47:14 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"1"}}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (36.3ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:47:14 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:47:14 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?ratings%5BR%5D=1" for 127.0.0.1 at 2013-10-15 12:47:20 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"R"=>"1"}}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (15.4ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:47:20 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:47:20 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?ratings%5BR%5D=1" for 127.0.0.1 at 2013-10-15 12:47:50 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"R"=>"1"}}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('1'))
+Rendered movies/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:47:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:47:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:47:51 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in (NULL))[0m
+Rendered movies/index.html.haml within layouts/application (26.5ms)
+Completed 200 OK in 56ms (Views: 30.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:47:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:47:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:47:52 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('1'))
+Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:47:52 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:47:52 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:47:56 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('1','1','1','1'))[0m
+Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:47:57 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:47:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2013-10-15 12:48:13 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('1','1','1','1'))
+Rendered movies/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:48:13 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:48:13 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1" for 127.0.0.1 at 2013-10-15 12:49:18 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"G"=>"1", "PG"=>"1", "PG-13"=>"1", "R"=>"1"}}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('1','1','1','1'))[0m
+Rendered movies/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:49:18 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:49:18 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=R&order=&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:49:19 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"R"}, "order"=>"", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('R'))
+Rendered movies/index.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:49:19 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:49:19 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&order=&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:49:21 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"PG-13", "R"=>"R"}, "order"=>"", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('PG-13','R'))[0m
+Rendered movies/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:49:21 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:49:21 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&order=&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:49:24 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "order"=>"", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R'))
+Rendered movies/index.html.haml within layouts/application (34.4ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:49:24 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:49:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&order=&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:50:49 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "order"=>"", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('PG','PG-13','R'))[0m
+Rendered movies/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:50:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:50:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=title" for 127.0.0.1 at 2013-10-15 12:50:51 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in (NULL)) ORDER BY title
+Rendered movies/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:50:51 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:50:51 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&order=title&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:50:55 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "order"=>"title", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('PG','PG-13','R')) ORDER BY title[0m
+Rendered movies/index.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:50:55 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:50:55 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2013-10-15 12:52:12 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in (NULL)) ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:52:12 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:52:12 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=R&order=release_date&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:53:01 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"R"}, "order"=>"release_date", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('R')) ORDER BY release_date[0m
+ERROR: compiling _app_views_movies_index_html_haml___2013561359289551121_70290642491840 RAISED /Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:15: syntax error, unexpected ';', expecting ')'
+));}</th>\n      <th>Rating</th>\n      <th#{
+   ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:15: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:15: syntax error, unexpected $undefined
+));}</th>\n      <th>Rating</th>\n      <th#{
+                                 ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, class: @order == 'rele...
+                      ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: Can't assign to nil
+_hamlout.attributes({}, nil, class: @order == 'release_da...
+                            ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: syntax error, unexpected ')', expecting tSTRING_DEND
+... == 'release_date' && 'hilite')}>#{_hamlout.adjust_tabs(1); ...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected $undefined
+.../th>\n      <th>More Info</th>\n    </tr>\n  </thead>\n  <tb...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: unknown regexp options - thad
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected $undefined
+...fo</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected $undefined
+...  </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:20: syntax error, unexpected $undefined
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+                             ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: syntax error, unexpected '}', expecting tSTRING_DEND
+));}</td>\n      <td>#{_hamlout.a...
+    ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:23: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:23: syntax error, unexpected $undefined
+));}</td>\n      <td>#{_hamlout.adjust_...
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:24: syntax error, unexpected ')'
+));}</td>\n      <td>#{_hamlou...
+ ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:25: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:25: syntax error, unexpected $undefined
+));}</td>\n    </tr>\n", -1, false);end
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: unknown regexp options - tbdy
+unmatched close parenthesis: /tr>\n", -1, false);end
+_hamlout.push_text("  </
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: syntax error, unexpected $undefined
+..._hamlout.push_text("  </tbody>\n</table>\n#{_hamlout.adjust_...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: unterminated regexp meets end of file
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Function body:           def _app_views_movies_index_html_haml___2013561359289551121_70290642491840(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "movies/index";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<h1>All Movies</h1>\n#{
+
+_hamlout.format_script_false_false_false_true_false_true_false(( @filters
+));}\n", 0, false);haml_temp =  form_tag movies_path, :method => :get do
+_hamlout.push_text("Include:\n", 0, false);
+ @all_ratings.each do |rating|
+_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( rating
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( check_box_tag "ratings[#{rating}]", "#{rating}", @ratings.include?(rating)
+));}\n", 0, false);end
+_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( hidden_field_tag 'order', @order
+));}\n#{_hamlout.format_script_false_false_false_true_false_true_false(( submit_tag 'Refresh', {:id => 'ratings_submit'}
+));}\n", 0, false);end
+_hamlout.buffer << _hamlout.format_script_false_false_false_true_false_false_false(haml_temp);_hamlout.push_text("\n<table id='movies'>\n  <thead>\n    <tr>\n      <th#{_hamlout.adjust_tabs(3); 
+_hamlout.attributes({}, nil, class: @order == 'title' && 'hilite')}>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to 'Movie Title', movies_path(params.merge({:order => :title}), {:id => 'title_header'}
+));}</th>\n      <th>Rating</th>\n      <th#{
+_hamlout.attributes({}, nil, class: @order == 'release_date' && 'hilite')}>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to 'Release Date',movies_path({:order => :release_date}), {:id => 'release_date_header'}
+));}</th>\n      <th>More Info</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+
+ @movies.each do |movie|
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+_hamlout.format_script_false_true_false_true_false_true_false((movie.title
+));}</td>\n      <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((movie.rating
+));}</td>\n      <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((movie.release_date
+));}</td>\n      <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_true_false_true_false((link_to "More about #{movie.title}", movie_path(movie)
+));}</td>\n    </tr>\n", -1, false);end
+_hamlout.push_text("  </tbody>\n</table>\n#{_hamlout.adjust_tabs(-2); _hamlout.format_script_false_false_false_true_false_true_false(( link_to 'Add new movie', new_movie_path
+));}\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper if @haml_buffer;end;
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__1268956927896671226__process_action__2740307112103728062__callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/connorboyd/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+Rendered movies/index.html.haml within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:15: syntax error, unexpected ';', expecting ')'
+));}</th>\n      <th>Rating</th>\n      <th#{
+   ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:15: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:15: syntax error, unexpected $undefined
+));}</th>\n      <th>Rating</th>\n      <th#{
+                                 ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: syntax error, unexpected tSTRING_DEND, expecting '}'
+_hamlout.attributes({}, nil, class: @order == 'rele...
+                      ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: Can't assign to nil
+_hamlout.attributes({}, nil, class: @order == 'release_da...
+                            ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:16: syntax error, unexpected ')', expecting tSTRING_DEND
+... == 'release_date' && 'hilite')}>#{_hamlout.adjust_tabs(1); ...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: unknown regexp options - th
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected $undefined
+.../th>\n      <th>More Info</th>\n    </tr>\n  </thead>\n  <tb...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: unknown regexp options - thad
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected $undefined
+...fo</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected $undefined
+...  </tr>\n  </thead>\n  <tbody>\n", -1, false);
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:20: syntax error, unexpected $undefined
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+                             ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:22: syntax error, unexpected '}', expecting tSTRING_DEND
+));}</td>\n      <td>#{_hamlout.a...
+    ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:23: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:23: syntax error, unexpected $undefined
+));}</td>\n      <td>#{_hamlout.adjust_...
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:24: syntax error, unexpected ')'
+));}</td>\n      <td>#{_hamlou...
+ ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:25: unknown regexp options - td
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:25: syntax error, unexpected $undefined
+));}</td>\n    </tr>\n", -1, false);end
+          ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: unknown regexp options - tbdy
+unmatched close parenthesis: /tr>\n", -1, false);end
+_hamlout.push_text("  </
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: syntax error, unexpected $undefined
+..._hamlout.push_text("  </tbody>\n</table>\n#{_hamlout.adjust_...
+...                               ^
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: unterminated regexp meets end of file
+/Users/connorboyd/Documents/Fall 2013/SoftwareEngineering/RottenPotatoes/app/views/movies/index.html.haml:26: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+    12:   %thead
+    13:     %tr
+    14:       %th{class: @order == 'title' && 'hilite'}= link_to 'Movie Title', movies_path(params.merge({:order => :title}), {:id => 'title_header'}
+    15:       %th Rating
+    16:       %th{class: @order == 'release_date' && 'hilite'}= link_to 'Release Date',movies_path({:order => :release_date}), {:id => 'release_date_header'}
+    17:       %th More Info
+    18:   %tbody
+  
+
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/connorboyd/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=R&order=release_date&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:53:24 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"R"}, "order"=>"release_date", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('R')) ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:24 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:24 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=title&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:53:27 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title", "ratings"=>{"R"=>"R"}, "utf8"=>"✓"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('R')) ORDER BY title[0m
+Rendered movies/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:27 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:27 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=title&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:53:28 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title", "ratings"=>{"R"=>"R"}, "utf8"=>"✓"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('R')) ORDER BY title
+Rendered movies/index.html.haml within layouts/application (49.1ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:29 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2013-10-15 12:53:29 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in (NULL)) ORDER BY release_date[0m
+Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:29 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:29 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date" for 127.0.0.1 at 2013-10-15 12:53:42 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in (NULL)) ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:42 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:42 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&order=release_date&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:53:47 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "order"=>"release_date", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R')) ORDER BY release_date[0m
+Rendered movies/index.html.haml within layouts/application (30.9ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:47 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:47 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=title&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:53:49 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "utf8"=>"✓"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R')) ORDER BY title
+Rendered movies/index.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:49 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:49 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=release_date&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:53:50 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"release_date", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "utf8"=>"✓"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R')) ORDER BY release_date[0m
+Rendered movies/index.html.haml within layouts/application (13.7ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:50 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=release_date&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:53:53 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"release_date", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "utf8"=>"✓"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R')) ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:53 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:53 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=release_date&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:53:56 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"release_date", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "utf8"=>"✓"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R')) ORDER BY release_date[0m
+Rendered movies/index.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:56 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:56 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&order=release_date&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:53:57 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "order"=>"release_date", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','PG-13','R')) ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (38.0ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:57 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:57 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BR%5D=R&order=release_date&commit=Refresh" for 127.0.0.1 at 2013-10-15 12:53:59 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "R"=>"R"}, "order"=>"release_date", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','R')) ORDER BY release_date[0m
+Rendered movies/index.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:53:59 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:53:59 -0600
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=release_date&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:54:00 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"release_date", "ratings"=>{"G"=>"G", "PG"=>"PG", "R"=>"R"}, "utf8"=>"✓"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','R')) ORDER BY release_date
+Rendered movies/index.html.haml within layouts/application (35.7ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:54:00 -0600
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:54:00 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?commit=Refresh&order=release_date&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BR%5D=R&utf8=%E2%9C%93" for 127.0.0.1 at 2013-10-15 12:54:03 -0600
+  Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"release_date", "ratings"=>{"G"=>"G", "PG"=>"PG", "R"=>"R"}, "utf8"=>"✓"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE (rating in ('G','PG','R')) ORDER BY release_date[0m
+Rendered movies/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-15 12:54:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-15 12:54:03 -0600
+Served asset /application.css - 304 Not Modified (0ms)
