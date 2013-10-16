@@ -8,15 +8,15 @@ class MoviesController < ApplicationController
 
   def index
     
-    if !params.has_key?(:order)
+    if !params.has_key?(:order)   #If params specifies an order, store it in the session and use that
       params[:order] = session[:order]
-    else
+    else                          #Otherwise, use the order stored in the session
       session[:order] = params[:order]
     end
 
-    if !params.has_key?(:ratings)
+    if !params.has_key?(:ratings) #If params specifies the rating filters, store it in the session and use it
       params[:ratings] = session[:ratings]
-    else
+    else                          #Otherwise, use the filter stored in the session
       session[:ratings] = params[:ratings]
     end
 
