@@ -22,12 +22,17 @@ class MoviesController < ApplicationController
 
 
 
-    @all_ratings = Movie.ratings
-    @order = params[:order]
+    @all_ratings = Movie.ratings  #Ratings array from the model
+    @order = params[:order]   #Sort order from params hash
+
+    #If ratings are specified, save the list of rating from the params. Otherwise, all ratings
     @ratings = params[:ratings] ? params[:ratings].values : @all_ratings
+
     if Movie.column_names.include? @order
+      #Get movies list from the model, ordering by @order, and filtering the ratings
       @movies = Movie.find(:all, :order => @order, :conditions => ['rating in (?)', @ratings])
     else
+      #Do not sort. Get movies from model
       @movies = Movie.find(:all, :conditions => ['rating in (?)', @ratings])
     end
 
